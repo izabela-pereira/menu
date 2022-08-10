@@ -1,0 +1,90 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fce6e3;
+}
+
+header
+{
+    max-width: 700px;
+    padding: 0;
+    margin: 0 auto; /*0 em cima e em baixo e automático (joga pro meio) nas laterais */
+    text-align: center;
+}
+
+h1
+{
+    font-size: 50px;
+    color: crimson;
+    padding: 5px 3px 0px 3px;
+    border-bottom: 5px
+}
+
+header h1 span 
+{
+    color: #000000;
+    border-radius: 5px;
+}
+
+header p 
+ {
+    font-weight: normal;
+    color: rgb(5, 4, 2);
+    max-width: 240px;
+    margin: 5px auto 20px auto;
+    border-radius: 5px;
+    
+ }
+
+.container
+{
+    max-width: 500px;
+    padding: 32px;
+    border: 3px solid silver;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin:0 auto 20px;
+    line-height: 21px;
+}
+
+.container p 
+{
+    font-size: 14px;
+}
+
+h2
+{
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+li
+{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+h3
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+strong
+{
+    text-align: right;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+li .bebidas .salgados 
+{
+    max-width: 240px;
+}
+
